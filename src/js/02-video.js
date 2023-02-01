@@ -12,4 +12,4 @@ player.on(
     }, 1000)
 );
 
-player.setCurrentTime(localStorage.getItem(time));
+player.setCurrentTime(localStorage.getItem(time) || 0);
